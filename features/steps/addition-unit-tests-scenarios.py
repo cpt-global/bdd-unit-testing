@@ -27,6 +27,5 @@ def step_impl(context,x):
     with open(projectDir+"/tests/unit/"+str(x)+"-testdrive.jcl", "w") as text_file:
         text_file.write(str(t))
     # Apply test logic
-
     pass
     # assert context.failed is False
