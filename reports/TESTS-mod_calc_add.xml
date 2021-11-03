@@ -1,0 +1,29 @@
+<testsuite errors="0" failures="0" hostname="workhorse" name="mod_calc_add.addition" skipped="0" tests="2" time="1.585875" timestamp="2021-11-02T15:58:05.452240"><testcase classname="mod_calc_add.addition" name="as a user I want to be able to add two numbers together -- @1.1 Numbers" status="passed" time="0.804426"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: as a user I want to be able to add two numbers together -- @1.1 Numbers
+    Given : Both numbers are positive ... passed in 0.000s
+    When the result should be positive too "75" ... passed in 0.804s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+The location of the binary is: b'\n DESCRIPTION\n -----------\n\n   Welcome to Zowe CLI!\n\n   Zowe CLI is a command line interface (CLI) that provides a simple and\n   streamlined way to interact with IBM z/OS.\n\n   For additional Zowe CLI documentation, visit https://docs.zowe.org\n\n   For Zowe CLI support, visit https://www.zowe.org\n\n\n USAGE\n -----\n\n   zowe <group>\n\n   Where <group> is one of the following:\n\n GROUPS\n ------\n\n   auth                          Connect to Zowe API ML authentication service\n   config                        Manage configuration and overrides           \n   db2                           Interact with IBM Db2 for z/OS               \n   plugins                       Install and manage plug-ins.                 \n   profiles                      Create and manage configuration profiles.    \n   provisioning | pv             Perform z/OSMF provisioning tasks            \n   zos-console | console         Issue z/OS console commands and collect      \n                                 responses                                    \n   zos-files | files             Manage z/OS data sets                        \n   zos-ftp | zftp                z/OS Files and jobs via FTP                  \n   zos-jobs | jobs               Manage z/OS jobs                             \n   zos-ssh | ssh | zos-uss | uss Issue z/OS USS commands and receive responses\n   zos-tso | tso                 Interact with TSO                            \n   zos-workflows | wf            Create and manage z/OSMF workflows           \n   zosmf                         Interact with z/OSMF                         \n\n OPTIONS\n -------\n\n   --version  | -V (boolean)\n\n      Display the current version of Zowe CLI\n\n   --available-commands  | --ac (boolean)\n\n      Displays a list of available commands\n\n GLOBAL OPTIONS\n --------------\n\n   --response-format-json  | --rfj (boolean)\n\n      Produce JSON formatted data from a command\n\n   --help  | -h (boolean)\n\n      Display help text\n\n   --help-examples  (boolean)\n\n      Not available for top tier Zowe group\n\n   --help-web  | --hw (boolean)\n\n      Display HTML help in browser\n\n'
+
+]]>
+</system-out></testcase><testcase classname="mod_calc_add.addition" name="as a user I want to be able to add two numbers together -- @1.2 Numbers" status="passed" time="0.781449"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: as a user I want to be able to add two numbers together -- @1.2 Numbers
+    Given : Both numbers are positive ... passed in 0.000s
+    When the result should be positive too "85" ... passed in 0.781s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+The location of the binary is: b'\n DESCRIPTION\n -----------\n\n   Welcome to Zowe CLI!\n\n   Zowe CLI is a command line interface (CLI) that provides a simple and\n   streamlined way to interact with IBM z/OS.\n\n   For additional Zowe CLI documentation, visit https://docs.zowe.org\n\n   For Zowe CLI support, visit https://www.zowe.org\n\n\n USAGE\n -----\n\n   zowe <group>\n\n   Where <group> is one of the following:\n\n GROUPS\n ------\n\n   auth                          Connect to Zowe API ML authentication service\n   config                        Manage configuration and overrides           \n   db2                           Interact with IBM Db2 for z/OS               \n   plugins                       Install and manage plug-ins.                 \n   profiles                      Create and manage configuration profiles.    \n   provisioning | pv             Perform z/OSMF provisioning tasks            \n   zos-console | console         Issue z/OS console commands and collect      \n                                 responses                                    \n   zos-files | files             Manage z/OS data sets                        \n   zos-ftp | zftp                z/OS Files and jobs via FTP                  \n   zos-jobs | jobs               Manage z/OS jobs                             \n   zos-ssh | ssh | zos-uss | uss Issue z/OS USS commands and receive responses\n   zos-tso | tso                 Interact with TSO                            \n   zos-workflows | wf            Create and manage z/OSMF workflows           \n   zosmf                         Interact with z/OSMF                         \n\n OPTIONS\n -------\n\n   --version  | -V (boolean)\n\n      Display the current version of Zowe CLI\n\n   --available-commands  | --ac (boolean)\n\n      Displays a list of available commands\n\n GLOBAL OPTIONS\n --------------\n\n   --response-format-json  | --rfj (boolean)\n\n      Produce JSON formatted data from a command\n\n   --help  | -h (boolean)\n\n      Display help text\n\n   --help-examples  (boolean)\n\n      Not available for top tier Zowe group\n\n   --help-web  | --hw (boolean)\n\n      Display HTML help in browser\n\n'
+
+]]>
+</system-out></testcase></testsuite>
